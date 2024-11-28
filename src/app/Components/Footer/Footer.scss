@@ -1,0 +1,43 @@
+.footer-container {
+	background-color: #393939;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	p:first-child {
+		font-size: 2vw;
+		color: #ffb5f8;
+		padding: 1vw;
+	}
+
+	p:last-child {
+		font-size: 2vw;
+		color: white;
+	}
+}
+
+.footerIcon {
+	width: 4vw;
+	height: 4vw;
+	padding: 0.5vw;
+}
+
+.TG {
+	width: 3.8vw;
+	height: 3.8vw;
+}
+
+.VK {
+	width: 4.5vw;
+	height: 4.5vw;
+}
+
+.WA {
+	width: 4.5vw;
+	height: 4.5vw;
+}
+
+.number {
+	font-size: 2.5vw;
+	color: white;
+}

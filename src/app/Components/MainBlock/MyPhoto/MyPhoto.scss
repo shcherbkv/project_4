@@ -1,0 +1,16 @@
+.pic {
+	width: 20vw;
+	margin: 3vw;
+	border: 0.3vw solid #858585ed;
+	border-radius: 2vw;
+	box-shadow: none;
+    transition: box-shadow 2s;
+    -webkit-transition: box-shadow 2s;
+}
+
+.pic:hover {
+	cursor: pointer;
+	box-shadow: 0.5vw 0.5vw 0.5vw #00eeff72, -0.3vw -0.3vw 0.5vw #00ff6672;
+    transition: box-shadow 1s;
+    -webkit-transition: box-shadow 1s;
+}

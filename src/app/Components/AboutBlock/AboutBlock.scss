@@ -1,0 +1,47 @@
+.sectionAbout {
+	background-color: #e3e3e3b9;
+
+	&:before{
+		z-index: -1;
+		background-image: url('../../../public/fon1.png');
+		background-size: 40vw;
+		position: absolute;
+		width: 100%;
+		height: 150%;
+		content:"";
+		opacity:0.08;
+	}
+}
+
+.about-container1 {
+	background: linear-gradient(#85858570 50%, #e0e0e000 100%);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.about-container2 {
+	background: linear-gradient(#e0e0e000 33%, #b5b5b552 66%);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.fish {
+	width: 100%;
+	height: 10vw;
+	background-color: #b5b5b552;
+
+	&:before{
+		z-index: -1;
+		background-image: url('../../../public/fon1.png');
+		background-size: 40vw;
+		position: absolute;
+		width: 100%;
+		height: 20%;
+		content:"";
+		opacity:0.08;
+	}
+}

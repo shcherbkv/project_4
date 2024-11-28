@@ -1,4 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
+import { Great_Vibes } from 'next/font/google';
+
+const greatVibes = Great_Vibes({ 
+    subsets: ['ciryllic'],
+    weight: ['400']
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en ru">
-      <body>
+      <body className={greatVibes.className}>
         {children}
       </body>
     </html>
