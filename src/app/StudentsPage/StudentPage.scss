@@ -1,0 +1,254 @@
+main {
+	width: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+	.grades-container {
+		padding: 5vw;
+		width: 100%;
+		height: 60%;
+		background-color: #D9D9D9;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-areas: ". . five five six  six  sev  sev  eigh eigh . ."
+							 ". . . nine nine ten ten elev elev . . .";
+		gap: 5vw;
+
+		.grade-container {
+			width: 12vw;
+			height: 16vw;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			border-radius: 0.3vw;
+			text-decoration: none;
+
+			h2 {
+				font-size: 7vw;
+				z-index: 2;
+				font-weight: bold;
+				height: 7vw;
+			}
+
+			p {
+				z-index: 2;
+				font-size: 5vw;
+				font-weight: bold;
+			}
+		}
+
+		.grade5 {
+			grid-area: five;
+			color: #f0f0f0;
+			background-color: black;
+
+			h2 {
+				position: relative;
+				top: -20%;
+			}
+
+			&:before {
+				background-image: url('../../public/5g.jpg');
+				background-size: 12vw;
+				position: absolute;
+				width: 12vw;
+				height: 16vw;
+				content:"";
+				opacity:0.25;
+				border-radius: 0.3vw;
+			}
+		}
+
+		.grade5:hover {
+			color: transparent;
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+		}
+
+		.grade6 {
+			grid-area: six;
+			color: #f0f0f0;
+			background-color: black;
+
+			&:before {
+				background-image: url('../../public/6g.jpg');
+				background-size: 12vw;
+				position: absolute;
+				width: 12vw;
+				height: 16vw;
+				content:"";
+				opacity:0.25;
+				border-radius: 0.3vw;
+			}
+		}
+
+		.grade6:hover {
+			color: transparent;
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+		}
+
+		.grade7 {
+			grid-area: sev;
+			color: #f0f0f0;
+			background-color: black;
+
+			h2 {
+				position: relative;
+				top: -20%;
+			}
+
+			&:before {
+				background-image: url('../../public/7g.jpg');
+				background-size: 12vw;
+				position: absolute;
+				width: 12vw;
+				height: 16vw;
+				content:"";
+				opacity:0.25;
+				border-radius: 0.3vw;
+			}
+		}
+
+		.grade7:hover {
+			color: transparent;
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+		}
+
+		.grade8 {
+			grid-area: eigh;
+			color: #f0f0f0;
+			background-color: black;
+
+			&:before {
+				background-image: url('../../public/8g.jpg');
+				background-size: 12vw;
+				position: absolute;
+				width: 12vw;
+				height: 16vw;
+				content:"";
+				opacity:0.25;
+				border-radius: 0.3vw;
+			}
+		}
+
+		.grade8:hover {
+			color: transparent;
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+		}
+
+		.grade9 {
+			grid-area: nine;
+			color: #f0f0f0;
+			background-color: black;
+
+			h2 {
+				position: relative;
+				top: -20%;
+			}
+
+			&:before {
+				background-image: url('../../public/9g.jpg');
+				background-size: 12vw;
+				position: absolute;
+				width: 12vw;
+				height: 16vw;
+				content:"";
+				opacity:0.25;
+				border-radius: 0.3vw;
+			}
+		}
+
+		.grade9:hover {
+			color: transparent;
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+		}
+
+		.grade10 {
+			grid-area: ten;
+			color: #f0f0f0;
+			background-color: black;
+
+			h2 {
+				position: relative;
+				top: -30%;
+				left: 5%;
+				font-size: 10vw;
+			}
+
+			&:before {
+				background-image: url('../../public/10g.jpg');
+				background-size: 12vw;
+				position: absolute;
+				width: 12vw;
+				height: 16vw;
+				content:"";
+				opacity:0.25;
+				border-radius: 0.3vw;
+			}
+		}
+
+		.grade10:hover {
+			color: transparent;
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+		}
+
+		.grade11 {
+			grid-area: elev;
+			color: #f0f0f0;
+			background-color: black;
+
+			h2 {
+				position: relative;
+				top: -30%;
+				left: 5%;
+				font-size: 10vw;
+			}
+
+			&:before {
+				background-image: url('../../public/11g.jpg');
+				background-size: 12vw;
+				position: absolute;
+				width: 12vw;
+				height: 16vw;
+				content:"";
+				opacity:0.25;
+				border-radius: 0.3vw;
+			}
+		}
+
+		.grade11:hover {
+			color: transparent;
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+		}
+	}
+}
